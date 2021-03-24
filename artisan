@@ -1,0 +1,15 @@
+Pembuatan controller, gunakan perintah..
+// untuk membuat controller UserController 'controller/UserController.php'
+php index.php artisan controller UserController
+// untuk membuat controller UserController di dalam folder User 'controller/User/UserController.php'
+php index.php artisan controller User.UserController
+
+Pembuatan model, gunakan perintah..
+// untuk membuat model User 'model/User_model.php'
+php index.php artisan model User
+
+// untuk membuat model User di dalam folder Model 'model/Model/User_model.php'
+php index.php artisan model Model.User
+
+// untuk membuat view User di dalam folder view 
+php index.php artisan view User
